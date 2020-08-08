@@ -9,4 +9,4 @@ do
     		Random_number=$((RANDOM%9+1))$((RANDOM%10))$((RANDOM%10))
     		myArray[$i]=$Random_number
 done
-echo "${myArray[@]}"
+echo "My Array: ${myArray[@]}"
