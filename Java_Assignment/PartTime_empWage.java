@@ -7,11 +7,11 @@ public class PartTime_empWage {
         int empWage = 0;
         double emp_Check = Math.floor(Math.random() * 10) % 3;
         System.out.println(emp_Check);
-        if (emp_Check == 1) {
+        if (emp_Check == Is_fullTime) {
             System.out.println("Employee is Present/Full_Time");
             empHours = 8;
         } 
-        else if (emp_Check == 2) {
+        else if (emp_Check == Is_PartTime) {
             System.out.println("Employee is Present/Part_Time");
             empHours = 4;
         } 
