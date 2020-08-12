@@ -56,7 +56,6 @@ public class Address_Book {
         Address_Book cont = new Address_Book();
         int choice;
         do {
-        
         System.out.println("\n----------MENU----------");
         System.out.println("1.Add a new Details of Employee in your address book.");
         System.out.println("2.Delete a contact from your address book.");

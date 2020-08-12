@@ -35,11 +35,9 @@ public class Employees_Details {
     public long getNumber() {
         return phonenumber;
     }
-
     public long zip() {
         return zip;
     }
-
     public void printcontact() {
         System.out
                 .print("Name: " + fname + " " + lname + ", Address: " + add + ", City: " + city + ", State: " + state);
